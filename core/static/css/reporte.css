@@ -1,0 +1,23 @@
+body{margin:0px; padding:10px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; font-size:14px}
+h1{margin:0px; padding:0px 0px 10px 0px; color:#F40A62; font-weight:bold}
+.text-center{text-align:center}
+.pull-right {float: right!important}
+p{font-size:18px;}
+hr{background:#B7B7B7; border:thin solid #cccccc;}
+.caja-borde{border:solid 1px #9c9c9c; padding:10px 10px 0px 10px}
+
+.table{margin:0px; width:100%; border-collapse:collapse; margin-bottom:10px}
+.table td{padding:8px 10px; border: 1px solid #ddd!important}
+.table2{margin:0 auto 10px !important; width:70%; border-collapse:collapse;}
+.table2 td{padding:8px 10px; border: 1px solid #ddd!important}
+.table-no-borde{margin:0px; width:100%; border-collapse:collapse}
+
+
+.caja{margin:30px 0px}
+.caja h2{background:#9c9c9c; padding:8px 30px; margin:0px; display:inline-block; font-size:18px; color:#FFFFFF; }
+.caja h3{padding:5px 5px; margin:5px 0px 0px 0px; display:inline-block; font-size:13px; color:#333333; border-right:25px solid #E4E4E4}
+table tr td.resaltado{background-color:#ededed; font-weight:bold}
+
+.concepto h3{font-size:30px; border-right:45px solid #E4E4E4}
+
+.texto-pq{font-size:10px; text-align:justify}

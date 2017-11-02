@@ -1,0 +1,8 @@
+[
+	{
+    	"model":"core.pais",
+    	"fields":{
+      		"nombre":"Venezuela"
+    	}
+	}
+]

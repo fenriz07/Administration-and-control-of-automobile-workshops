@@ -1,0 +1,68 @@
+[
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "GASOLINA"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "GNV"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "DIESEL"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "GAS GASOL"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "ELECTRICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "HIDROGENO"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "ETANOL"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "BIODIESEL"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "GLP"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "GASO ELEC"
+   }
+},
+ {
+   "model": "vehiculo.tipocombustible",
+   "fields": {
+      "nombre": "DIES ELEC"
+   }
+}
+]

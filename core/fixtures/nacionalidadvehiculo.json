@@ -1,0 +1,644 @@
+[
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "INDEFINIDO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ALEMANIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "AMERICAN SAMOA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ANDORRA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ANTILLAS NETHERLANDS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ARGENTINA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ARMENIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ARUBA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "AUSTRALIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "AUSTRIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BAHAMAS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BELGICA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ZAIRE"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BOLIVIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BRASIL"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BULGARIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BURUNDI"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "CANADA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "COLOMBIA "
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "COREA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "COSTA RICA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "CROATIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "CUBA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "CHILE"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "CHINA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "DINAMARCA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ECUADOR"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "EL SALVADOR"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ESPAÑA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ESTADOS UNIDOS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ESTONIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "FAROE ISLANDS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "FILIPINAS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "FINLANDIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "FRANCIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "GRAN BRETAÑA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "GRECIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "GREENLAND "
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "GUATEMALA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "GUAYANA FRANCESA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "HONDURAS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "HONG KONG"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "HUNGRIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "IRLANDA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ISLA DE MAN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ISLAS CAIMANES"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ISLAS VIRGENES INGLESAS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ISLAS VIRGENES U.S."
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ISRAEL"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ITALIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "JAMAICA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "JAPON"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "JORDANIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "LIBANO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "LIBERIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "LIECHENSTEIN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "LITHUANIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "LUXEMBURGO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "MALAYSIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "MEXICO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "NETHERLANDS"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "NICARAGUA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "NORFOLK ISLAND"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "NORWAY - NORUEGA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "NUEVA ZELANDA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PAKISTAN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PANAMÁ"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PARAGUAY"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PERÚ"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "POLONIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PORTUGAL"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PUERTO RICO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "REPUBLICA CHECA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "REPUBLICA DEMOCRATICA DEL CONGO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "REPUBLICA DOMINICANA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "RUMANIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "RUSIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "RWANDA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SINGAPUR"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SLOVAKIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SRI LANKA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SUR AFRICA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SUECIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SUIZA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "TAIWAN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "THAILANDIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "TONGA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "TRINIDAD Y TOBAGO"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "TURKIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "TURMENISTAN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "UGANDA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "UKRAINE"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "URUGUAY"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "VENEZUELA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "YUGOSLAVIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ZAIRE"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "OTROS PAÍSES"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SIRIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "INDONESIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "INDIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "KENYA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "ESLOVENIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "BOSNIA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "COSTA DE MARFIL"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "KAZAKHSTAN"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "PALESTINA"
+   }
+},
+ {
+   "model": "vehiculo.nacionalidadvehiculo",
+   "fields": {
+      "nombre": "SIN IDENTIFICAR"
+   }
+}
+]

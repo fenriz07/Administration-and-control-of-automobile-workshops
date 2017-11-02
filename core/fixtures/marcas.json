@@ -1,0 +1,8312 @@
+[
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SIN MARCA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHEVROLET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAEWOO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAZDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RENAULT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLKSWAGEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DODGE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SIMCA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PLYMOUTH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OLDSMOBILE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LANCIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NISSAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PEUGEOT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUBARU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DATSUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUICK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CADILLAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRONCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MITSUBISHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PONTIAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOYOTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLVO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALFA ROMEO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BMW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FERRARI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MERCEDES BENZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROLLS ROYCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAGUAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DACIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LADA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OLTCIT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAVRIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLGA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKODA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CITROEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAIHATSU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MERCURY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OPEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ISUZU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JEEP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LAND ROVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUZUKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHRYSLER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAMAHA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAWASAKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HARLEY DAVIDSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INTERNATIONAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASIA MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MACK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAGIVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WILLYS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KENWORTH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IVECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LAMBRETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MINSK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HERO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUSTIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTOCAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DESOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HINO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DINA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GEO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DELTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HYOSUNG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUSQVARNA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VIASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KUBOTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BELARUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIALING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZASTAVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUALI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MONTESA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FARGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CORCEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAMAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PUCH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EBRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINCHENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NASH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WARTBURG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MORRIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RAMBLER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WILLCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SISU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SEAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ABARTH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUDI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASTON MARTIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTO UNION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AVIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHECKER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BROCK WAY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BORG WARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BENTLEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUSSING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEDFORD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BERLIET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BARREIROS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COMMER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DKW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EDSEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORDSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FREIGHTLINER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HOHOLDEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HILLMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUDSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IFA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ISO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KIAMASTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LAMBORGHINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LOTUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAGIRUS DEUTZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOSKOVICH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MURAVEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NECKAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PACKARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "F.S.O."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALEKO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMERICAN MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEIJING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DERBY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HENRY J"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HYUNDAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAWA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LEXUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MINICORD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PEGASSO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PORSCHE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SCANIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SSANGYONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STUDEBAKER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRIUMPH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WARZAMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIAGGIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COLMOVE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAELIM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANSHE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUMMER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KTM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAJAJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POLONEZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEISUTE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINGFU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AGRALE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PETERBILT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DUCATI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RAF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SPARTAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PRINCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINETIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOMBARDIER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INFINITI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZUMY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VAUSHALL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VESPA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "B.S.A"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NORTON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ITALJET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOSKHOD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INDIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GILERA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAHINDRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BABETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BULTACO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOCXOD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARABELLA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOGUZZI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PACER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PANNONIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PANHARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RONART"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAMSUNG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANGLAS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUMBEAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SINGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRABANT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THAMES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOSJOD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WHITE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LML"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TATA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SMART"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VARZI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIFAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KOREMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AKT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAIC CHERY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DINLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GAS GAS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OKLAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAFEI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINHAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAX MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QINGQI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GEELY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHERY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHENGQIBAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JEZHANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AYCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIONEER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAIC WULING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINLON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JET UKM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SIGMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MINI POCKET BIKE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VICTORY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGHE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LONCIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAZUKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VENTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOMOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XIALI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TITANIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACCURA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONLEI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CPI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BYD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DUKAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKYGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PASAGGIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAYAK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUPACO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MC MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGSU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SACHS BIKES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KYMCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JUNESUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WALTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINROAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MORGAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HALLEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UKM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARIEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ATV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WONJAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WANXIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JMSTAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZONGSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUTONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YINGANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNISON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKOOT MOTORCYCLES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHONGQING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUONNIAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KYOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "URAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIRENZE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREAT WALL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GENESIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POLARIS ATV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XISPA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KEEWAY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHEJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTOCAR WHITE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINROAD XINTIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOR UNO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "USW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "APRILIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RENNO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GALARDI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TYCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUELL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JONWAY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BORGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGXING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "U.S.W.MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SYM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROYAL ENFIELD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JOYNER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AVANTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANYA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FOTON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CNENLON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAMATI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROKETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACCURO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHINERAY MOTOS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNITED MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VENOM MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TMEC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAOJIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JBWCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SONGSHENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VERUCCI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRITISH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COBRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CUSHMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GURGEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUMBERT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LA SALLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIERCE ARROW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PUMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SATURN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WULING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NITRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAILI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAEHAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TONGKO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FRIBEST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEW ERA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRP/CAN AM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WEST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINGYUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VENTIE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XL XINLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAMMER HEAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHEJIANG QIANJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHUJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POLARIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SCOOTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAKIMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MTK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FASTER 301 CHOIPERS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOURGET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REX MOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HY MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TVS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAOMEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHEJIANG LINGTIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZOTYE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUKYAMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINGUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINGLONG HIGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KANDI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ATM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MD BIKES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WUYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PANTERA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TERRA JET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WCR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KANCHAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUXIANDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GWM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RIDER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROSSETTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DONG FENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TIXXON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZNEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EKA MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OROMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SQ RACING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZAHAV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YIBEN-YBFALCON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ITALIKA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AKITA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BIG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAIFO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EAGLE CARGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUDEPAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GONOW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GUZZI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IOTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIN JIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KYNLON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTO MORINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NIKITA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REBELLIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHIJIAZHUANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TALON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TELCOLINE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TX MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WORKMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WUZHENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINKAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "A.J.S"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACCESS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACE MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACM-ZHONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ADDO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALLAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALLIS CHALMERS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALPS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AP PIAGGIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "APELCO GEN-MTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASTRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BACCIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAODIAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BARBER GREENE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BASHAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAUKEMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BETTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BIANCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BIMOTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BLAW KNOX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BLUE STONE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOBCAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BODYWORK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BONSER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOUSER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRIDGE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRONTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUCYRUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUGENI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAMECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAN-AM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAPACITY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARIBE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARTER BROTHERS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CASE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CATERPILLAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CATFLYER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHAMPION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGLIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHARLY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHARMING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHINSU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHONGQING ZONGSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHONGQUING YUAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CICLONE USA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CLARCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CLUB CAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COLOMBIANA DE CHASISES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COMANDO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COMET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CONCORD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CROWN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CSEPEL-CUMMINS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CUSTOM CHROME"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAVID BROWN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAYUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DIAMOND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DIECI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DINAPAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DOMINGUEZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DRESSER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DUST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DYNACOLT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "E.D. ETNYRE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EAGLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EAGLE AMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EASTMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EBTELECTRIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELECTRIC STAR ATV ENERGY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELGIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ENCAVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ENERGY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ERNEST GRUBER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EUCLID"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EVO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EXCELSIOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EXPRESS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EZLIFE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAILING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAMY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FEDERAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FENCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIAT ALLIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIORI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FONA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORMULA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUTURE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FWD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FYM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GALION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GAZELLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GENERAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GHA-2"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOLDEN DRAGON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GRAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GROVE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HARDLAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HARMON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HELI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HERRAGRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HILIGHT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HISTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HITACHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUBER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUMMER ZONGSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HYSTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INCALCU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INDIAN CHIEF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INGERSOLL RAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INVICTUS MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JACKEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAINSHE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAVELINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JCB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JHON DEERE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JHONSTON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANG CHANGHE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGNAN GLOW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGSU KINROAD XINTIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGXI CAMPELL CO."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINGLONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIRY SISU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAISER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KALMAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAZUMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KING LINFT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KITOMI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KOMATSU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KONCEO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KRAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KRUPP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINCOLN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LITTLE GIANT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIUGONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LMX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LORAIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MADVAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MANCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARMON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARUTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MASEY FERGUSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MATCHELSS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MC CORMICK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MERLO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "META"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MGB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOBECAME"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MV AGUSTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEW HOLLAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEW KING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NIMBUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NON PLUS ULTRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NUFFIELD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OAKLAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OSHKOSH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "P Y H"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PARCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PETTIBONE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIAGGIO ZONGSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POCLAIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POWERMAX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QIANJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RAMIREZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RANGE ROVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REVTECH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RLX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROBUR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROSCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAME"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAURON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANGHAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHINERAY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SINOTRUK HOWO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKINGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKYMAX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STEYR DAIMLER PUCH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUKIDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNDIRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TCM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TEREX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THUNDER CYCLE DESIGN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TONARO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRIWIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNIMOG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNIVERSAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "USA MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VALMET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VALTRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VISAIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOGELE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WARZAWA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WESTERN STAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WKT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XCMG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YALE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAMASAKY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YIBEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YONKANG XINGYUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUANDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUEJIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUMBO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZEPHYR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZETOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHEJIANG HANGCHA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHENG LI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZID"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZIGMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZIP STAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZODIAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZUNK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARBONER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUGGY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CACIQUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RHINO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BELL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FURUKAWA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ISEKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KATO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KOBELCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LEE BOY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINK BELT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MATBRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PANZER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PINZ GAUER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIQUERSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TADANO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CCITTA REBEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DELKRON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DESTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINBEI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINGPIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAELBLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "L.R."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOBILIFT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OSSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PHW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STAVOSTROJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TCUMSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TENNAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOWMOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VERKHOVINA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOSJOB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HORNET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZUNDAPP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DANUVIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CEZET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GO KART"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MASERATI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALFARO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALVIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMPHICAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMPLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "APOLLO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARABELLA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASPT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTOKRAFT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AYCO ZONGSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAIKANCAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAKER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BANTAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BENELLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOSA BOSHIE NIKE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRISA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "C.C.C."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAMC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CENTAURS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHINA MOTORCYCLES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHITUMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CLAUSSON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COLT LANCER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CONSUL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CROSLEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CRUISERN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DACC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DAIMLER BENZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DASHA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DE LA HAYE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DEMAG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DIVICO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DTV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ECO CITI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EL SOL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELEPHANT POWER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "E-TON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EZGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "F.N"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FANTIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FARSPEED"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIBRAVAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FLEXIBLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FRAZER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FULDAMOBIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GERLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOGOMOVIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GRAHAN PAUGE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GRANE CARRIER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREMLIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GRUBER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HALLA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAOJUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HESTIA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HOSIN SOPORTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUAWIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUPMOBILE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUSABERG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "I.M.V"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IKARUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ISLO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIN JIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JUMBO DE LLANTAS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JUNGHEINRICH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KANABIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KARPETAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KOMAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KONTIO SISO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KROSON SOPORTES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "L.A.I"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LEE SCUSTÓN COACHES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LEY LAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIANMEI MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIBA MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINDE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINGBEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "M.G.U"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARCHETTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARQUASS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MASTER CRAFT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAXWELL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAYFLOWER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAZAKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MG MIDGET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MNHCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOBYLESTTE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MONIKA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOCARRIER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MUDAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MUHCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "N.S.U"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEUTRAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEW HYSTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NYK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ORANGE COUNTY CHOPPERS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ORION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PASSO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PEXMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PLANETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POWER WAGON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PREFECT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RABBIT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROSENBAUER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAAB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANDI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANGLIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAURER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SCAMMELL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SEAGRAVE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SERVAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANGLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHERPA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHUANGHUAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHUANGSHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKYTEAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SOLARI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SONIKA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SONZINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SOYAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SP@ZZIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SRFHUAIGE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STEINBOCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STIRES VM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUMO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNASA QINGQI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUPERMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TALBOT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TANTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TATRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TEMPO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TGA-200-G"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TMD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TONGYU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOYOPET"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TULA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UFO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VALIANT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VALKYRIE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VANGUARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOGUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VONROAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WAGONNER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WAJAX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WINCHEMG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WLLHELMSHAVEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WORD LA FRANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WORLDSTAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WSK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINGLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINTIAN KINROAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XSG ING QIJITUA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YLM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZENA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGNENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGYU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZIU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZQ MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZUK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZUK NYSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALL STATE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALLARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONGXING NOBLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CIXI KONCEO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAOJIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PRATOO Y FORNE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REGAL RAPTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WEST WARRIOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AEOLUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTO BIANCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAW ZHAN QI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FODEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IFG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LLOYD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LUAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PANDA CHUNZOHN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROCAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SCOUTY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKANIA VABIF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SSANGYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STUTZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "T.J.C."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TANDEM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TONGBAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRADER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNDERBONE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VEDETTE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOSHUD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YITAKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGHUA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STERLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THOMAS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOMAG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTECO BAJAJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTECO KYMCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DRESSER HAULPAK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOXI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PERLINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HOREX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIEBHERR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FIVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUTONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WANHU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MALAGUTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARCTIC CAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DCEC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOURING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HIGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CFMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TEMPEST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUXIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XRP SAIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HENSIM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANLEE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTECO VICTORY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TEAM RYDER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUALIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHACMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AVA MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BARHOG/DADYW"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOKART"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MANZINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YONGKANG EASY VEHICLE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MITSUBISHI FUSO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ISHIMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ESSEX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KHOOBRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAKEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREENWHEEL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TORNADO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAIMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HISUN TIGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRACTOCASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AWS - ALIEN WORK SHOP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGSU SINSKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINGKEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YGM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WANCH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAO TAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GALAXI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PACIFIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BYVIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIASHITE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ENERGY MOTION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HPOWER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YADEA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JLC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ADVANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIAJUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ETX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JBC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "E-ONE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DETROIT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KMO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUNTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THOMAS BUILT BUSES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LOVOL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "D LONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAYLOR DUNN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAORI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHELBY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARPATI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LUCKY LION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CLC MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAHINDRA DURO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BENLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OULING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YAXING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HANLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZNA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUANGHAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DADI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KING LONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ESCORPIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFSK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "OLIYA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GSMOON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BERA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XGJAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SENKE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LANGQING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AWS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JAUNCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZILI MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ALFA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASIA HERO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SINOTRUK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "POLARSUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UD TRUCKS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JUNCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SELVAXTREMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOFFETT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FASTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MIKILON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANYOU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GAME"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FENIX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INDUSTRY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GBMCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GVMCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HSUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "T-KING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SEIKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HEIL TRAILER INTERNATIONAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PPM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PAILISON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROAD SPORT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZOOMLION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINLUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RENLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHERCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HARRIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AGUILA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HIOSUNG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MIGARGI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WINDAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHIFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "E- MAX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HERSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SULTANA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CARTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EMPIRE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VDL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CNJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAYRONA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHAANQI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TARANTULA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UPBEAT MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JEREH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHALLENGER LOWBOY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTOABC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BLUE BIRD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREENTRANS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANDONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MODASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RTM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CVT RATO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ATV RATO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAMAJI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FOSHAN CITYFOSTI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HME"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "S/M FAB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DANDONG HUANGHAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZONDA SOL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KING STEYR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HYDUKE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BON LUCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AM GENERAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHENKE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEI BEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FRANKS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SIMON DUPLEX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAXAMOTOS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAN AM BOMBARDIER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FEIZHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VAISAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFAC-DONG FENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAUN/TADANO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LLOCATELI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STRONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IDECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BUCEGI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HAI XING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WOLSELEY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUASHA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHENLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINYU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONGOI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZERO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CIBER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RATO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KW-B800"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UNICO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAIBEN TRUCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ANIVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LANDINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOPTOM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RIEJU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IVECO MAGIRUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LINTEX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BERING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRILLIANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YONGKANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIANGZI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TONGHUA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAYLOR INDUSTRIES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YOUNGMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIZHONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AMERICAN LA FRANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PEMFAB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KING ROAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JUPITER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ESCUTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WHITE WESTERN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ECO JAMCHA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RIYA MOTORA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IVECO FIAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JOYLONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HARDKNOCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SPYDER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FEISHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TENNANT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAN JI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THUMB"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGPONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NAVISTAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SI JI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHONGTONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IPV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DEYI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONOR-QJ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AN YUAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "S&C"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JINLING TIGERS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TIGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOLOEN LEOPARO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FULU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHENGLONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EV TECH JAPAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WYS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HM HONDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINYUE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VECTRIX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUPERFORMANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FENGCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHA TUO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAXUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DONGBEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LVTONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ATV RACING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ULTIMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DONG-A"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KOEHRING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TIANMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RAINCHST"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DBO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "V-WINGS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VICMARS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NBLUCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HUANSONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKYNGO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GRUMMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACURA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TESUO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUAMDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAKIBA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LIATONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CABOT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COMMUTER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LOADCRAFT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WEAPON GENERAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZIMMER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XIANFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WRIGHTBUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BELKOMMUNMASH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FALCON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RANDON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TYTAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAN-AM OUTLANDER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HEXAGON LINCOLN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STANDARD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SKYMOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JMCOMPETETIOM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAW-HONGQI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOLIATH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STANDARD TRIUMPH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CANAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KHD DEUNZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DIAMONTH"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "I H C PAYSTAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TIGER POWER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LA CANE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUEHAO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ATK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANTANA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FTF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PITSTER PRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FMC WAYNE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SAETA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MD BASHAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WARRIOR ROAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "THAMES TRADER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAILG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DURATI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ILLUSION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZEASY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOGOMOBIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZANELLA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAIHENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MINICHOPPER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YONGKANG JINLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TARANTULA HUABAD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ROMARCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREAT DANE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZONSHEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAUNUS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAETANO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KINGTON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAIC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LANDWIND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HONGYAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRAMMO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DONGFENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SPRIENTER FREIGHTLINER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SLANE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAOYA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRAMMO IMPULSE R."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREEN THOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HECHI TOOLS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTO GUZZI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LONDON  MACHINERY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DI BLASI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFLZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNNY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BEIBEN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FINE CENTURY CO LTD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FOLARIS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CYCLER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DSFK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NISSAN CABSTAR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOTO ABC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WERDEAU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EAGLE TALON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHOPPER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INTERNATIONAL F9370"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SINOTRUKHOVA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "COLES CRANES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SJ.PETRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOVECS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BENDA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZSPEM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JEEPSTER VIASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DACIA 10"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JIANGSU JINJIE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "XINYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SSTERLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NORTH BENZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NISSAN PATROL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GREEN SAVER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LUYUAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACM ANGEL'S CUSTOM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOSS ATV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YCF"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DUNE BUGGYS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TM RACING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MOZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QISHENG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YINXIANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MERCEDES BENZ/UNIMOG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TELDIUX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NAVECO-IVECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SINSKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELEKTRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GARELLI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ARTIC CAT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RAVO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JOHN DEERE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BRICKLIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MORINI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAN AM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WHITE MOTORCORPORATION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EONE HURRICANE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "HTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JBC JINBEI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CANCE CASHSUYE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUSA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "X-TRON POWER ENERGY"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MCLAREN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "USW MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NEW HOLLAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORLAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ACURA INTEGRA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FEIYING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INDUSTRIAS MORENO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MH KN2"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MH RACING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MH7 NAKED"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PEGASO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANGYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORD LAND"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHINERAY / AYCO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "UROMAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "E-MOTORI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "EP-EP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "C.O.C."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WELLUCK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRIUMPH MOTORCYCLES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VENICE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AIMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "APRIL EV"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DERBI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SLNG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MAVILA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIERCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANLG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FORCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LARETTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "JEEP WRANGLER 4WD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAMAX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNWIN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZONLON"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TAYLOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BECEMA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLVO BM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MGA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ERSKINE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SCHWARSE SUPERVAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SHANDONG XINDAYANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUBURN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GATOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BOSS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PRAKLA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELEKTROMOTORES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PRECISION CYCLE WORKS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ELEXTROMOTORES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MARCOPOLO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DEUTZ"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GENOVO POWER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUSO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GARWOOD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BLAWKNOX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHAOWEI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NAVISTAR INTERNACIONAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YUEJIN - NAVECO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "H14.00XM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RANGER CREW 900"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SUNLONG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "IASA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BK MOTO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAP"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FUXIN-F-FX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TOYOTA SCION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AVENGER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RING SIMONS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "SANLING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KIKKER 5150"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "RARIRO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CAMPAGNA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TRUMPCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GOUPIL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "AUTOBIANCHI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "LYNGYUN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MH MOTOCYCLES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAOTIAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KING MOTOR"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NISSAN URVAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHAMPION PERFORMANCE"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PIAGIO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MG MORRIS GARAGES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "NATSUKI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAISER JEEP CORPORATION"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MITSUBISHI MONTERO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "WESTFIELD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "REVOLUTION 250"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "GLOBAL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "A.C.F."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PULLMAN"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "DFAC"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "U.D.M."
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MURRELL"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CATERHAM"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZAGA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BAIC/KENBO"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "MESSERSCHMITT"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "BECK"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ASIA MOTORS"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FAI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "PCC EU"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "VOLTA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAMPERX"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CRANE CARRIER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "CHANGANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "INMINES"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "STÄRKER"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "QILING"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "ZHANG"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "FERRARA"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "YINJI"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "TEREX BENFORD"
+   }
+},
+ {
+   "model": "vehiculo.marca",
+   "fields": {
+      "nombre": "KAYSER"
+   }
+}
+]

@@ -1,0 +1,26 @@
+{% extends "base_auth.html" %}
+{% block title %}Eliminar Usuario | ClickControl{% endblock %}
+{% block contenido %}
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="page-header">Eliminar Usuario</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <form method="post">{% csrf_token %}
+                    <div class="alert alert-danger alert-dismissible fade in" role="alert"> 
+                        
+                        <h4>Alerta!</h4> 
+                        <p>¿Seguro que desea eliminar el usuario <a href="{% url 'usuarios:editar' usuario.id %}"><b>{{usuario.user.first_name}} {{usuario.user.last_name}}</b></a>?</p><br><br><br>
+
+                        <p> 
+                            <button type="submit" class="btn btn-danger">Eliminar</button> 
+                            <a href="{% url 'usuarios:listar' %}" class="btn btn-default">Cancelar</a> 
+                        </p> 
+                    </div>
+                </form>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,159 @@
+<!doctype html>{% load static from staticfiles %}
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="{% static 'css/reporte.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- INICIO PRIMERA HOJA: INFORME TÉCNICO -->
+
+<table class="table-no-borde">
+<tr>
+<td>
+<h1>INFORME TÉCNICO</h1>
+<img src="{% static 'images/logo-reporte.png' %}">
+</td>
+<td>
+<table class="table">
+<tr><td class="resaltado">FECHA:</td><td>16 / 09 / 2016</td><td class="resaltado">N° INFORME:</td><td>4945874587</td></tr>
+<tr><td class="resaltado">PLACA:</td><td>IKV 837</td><td class="resaltado">CIUDAD:</td><td>Bogota</td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+<br />
+<hr />
+
+
+
+<div class="caja">
+<h2>DATOS</h2><h3 class="pull-right">control de calidad</h3>
+<div class="caja-borde">
+<table class="table-no-borde" border="0">
+<tr>
+<td>
+<table class="table">
+<tr><td class="resaltado">Marca:</td><td>Renault</td></tr>
+<tr><td class="resaltado">Clase:</td><td>Vehiculo</td></tr>
+<tr><td class="resaltado">Tipo:</td><td>Vehiculo</td></tr>
+<tr><td class="resaltado">Modelo:</td><td>2016</td></tr>
+<tr><td class="resaltado">Nacionalidad:</td><td>Colombia</td></tr>
+<tr><td class="resaltado">Color:</td><td>Gris</td></tr>
+<tr><td class="resaltado">Cilindraje:</td><td>1600</td></tr>
+</table>
+</td>
+<td>
+<table class="table">
+<tr><td class="resaltado">Marca:</td><td>Renault</td></tr>
+<tr><td class="resaltado">Clase:</td><td>Vehiculo</td></tr>
+<tr><td class="resaltado">Tipo:</td><td>Vehiculo</td></tr>
+<tr><td class="resaltado">Modelo:</td><td>2016</td></tr>
+<tr><td class="resaltado">Nacionalidad:</td><td>Colombia</td></tr>
+<tr><td class="resaltado">Color:</td><td>Gris</td></tr>
+<tr><td class="resaltado">Cilindraje:</td><td>1600</td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<table class="table">
+<tr>
+<td class="resaltado text-center">M° MOTOR:</td>
+<td class="resaltado text-center">M° SERIE:</td>
+<td class="resaltado text-center">M° CHASIS:</td>
+</tr>
+<tr>
+<td class="text-center">1234567890</td>
+<td class="text-center">1234567890</td>
+<td class="text-center">1234567890</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="caja">
+<h2>DOCUMENTOS</h2><h3 class="pull-right">control de calidad</h3>
+<div class="caja-borde">
+<table class="table">
+<tr>
+<td class="text-center"><img src="{% static 'images/images.jpg'%}"></td>
+<td class="text-center"><img src="{% static 'images/images.jpg'%}"></td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="caja">
+<h2>IMPRONTAS</h2><h3 class="pull-right">control de calidad</h3>
+<div class="caja-borde">
+<table class="table table-bordered">
+<tr><td class="col-md-4">MOTOR</td><td class="resaltado"></td></tr>
+<tr><td class="col-md-4">SERIAL</td><td class="resaltado"></td></tr>
+<tr><td class="col-md-4">CHASIS</td><td class="resaltado"></td></tr>
+</table>
+</div>
+</div>
+
+
+<div class="caja">
+<h2>CONCEPTO</h2><h3 class="pull-right">control de calidad</h3>
+<div class="caja-borde concepto">
+<p class="text-center"><strong>ESTE CONCEPTO TÉCNICO ESTÁ BASADO EN LA REVISIÓN DE LOS SISTEMAS DE IDENTIFICACIÓN EN CUANTO A SU ORIGINALIDAD.</strong></p>
+<p class="text-center">Analizados los guarismos se determinó que se encuentran:</p>
+<table class="table2">
+<tr>
+<td class="text-center"><h3>Original</h3></td>
+<td class="text-center"><h3>Regrabado</h3></td>
+<td class="text-center"><h3>Grabado</h3></td>
+</tr>
+<tr>
+<td class="resaltado" colspan="3">Observaciones:</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div class="caja">
+<div class="firma row">
+<div class="col-md-12 col-sm-12">
+<table width="100%">
+<tr>
+<td class="col-md-5">
+Firma  ____________________________________<br />
+Agente (R)<br />
+Técnico en identificación de automotores<br /><br />
+<p class="texto-pq">
+Este informe emitido por NOMBRE EMPRESA está basado exclusivamente en criterios técnicos. La documentación que ampara la legalidad del vehículo debe ser confirmada oportunamente por las entidades pertinentes.<br />
+Así mismo no genera ningún efecto vinculante en la comercialización del vehículo inspeccionado.
+</p>
+</td>
+<td class="col-md-2"></td>
+<td class="col-md-5">
+Firma Cliente  ____________________________________<br />
+C.C. <br /><br />
+<p class="texto-pq">
+Este informe emitido por NOMBRE EMPRESA está basado exclusivamente en criterios técnicos. La documentación que ampara la legalidad del vehículo debe ser confirmada oportunamente por las entidades pertinentes.<br />
+Así mismo no genera ningún efecto vinculante en la comercialización del vehículo inspeccionado.
+</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<!-- FIN PRIMERA HOJA: INFORME TÉCNICO -->
+
+
+</body>
+</html>

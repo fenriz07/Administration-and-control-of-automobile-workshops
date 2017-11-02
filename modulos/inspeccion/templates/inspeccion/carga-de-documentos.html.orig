@@ -1,0 +1,124 @@
+{% extends "base_auth.html" %}
+{% block title %}Carga de Documentos | ClickControl{% endblock %}
+{% block contenido %}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Carga de Documentos</h1>
+        </div>
+    </div>
+
+    <div class="row">
+      {% if messages %}
+          {% for message in messages %}
+              <div class="alert alert-{{message.tags}} alert-dismissable">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{message}}
+              </div>
+          {% endfor %}
+      {% endif %}
+        <div class="col-lg-8">
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-upload fa-fw"></i> Carga de documentos - Licencia de transito
+                </div>
+
+
+                <div class="panel-body">
+
+<<<<<<< HEAD
+                            <div class="row">
+                              <form method="post" enctype='multipart/form-data'>{% csrf_token %}
+                                <div class="col-lg-12">
+                                    <input type="text" name="numero_inspeccion" value="{{numero_inspeccion}}" hidden="True">
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped">
+                                                <tr>
+                                                    <td> {{form.fotografia_delantera}} <a id="a_id" class="btn btn-danger"><i class="fa fa-trash"></i></a><br /><br /><strong>Delantero</strong><br /><br /><img id="img_d" src="http://{{request.get_host}}/uploads/{{imagen_delantera}}" class="img-responsive"></td>
+                                                    <td> {{form.fotografia_trasera}}   <a id="a_it" class="btn btn-danger"><i class="fa fa-trash"></i></a><br /><br /><strong>Trasero</strong><br /><br /><img id="img_t" src="http://{{request.get_host}}/uploads/{{imagen_trasera}}" class="img-responsive"></td>
+                                                </tr>
+                                        </table>
+                                    </div>
+=======
+                    <div class="row">
+                      <form method="post" enctype='multipart/form-data'>{% csrf_token %}
+                        <div class="col-lg-12">
+                            <input type="text" name="numero_inspeccion" value="{{numero_inspeccion}}" hidden="True">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                  <tr>
+                                      <td>
+                                        <a class="btn btn-success">ESCANEAR</a> {{form.fotografia_delantera}} 
+                                        <a id="a_id" class="btn btn-danger">
+                                          <i class="fa fa-trash"></i>
+                                        </a><br /><br />
+                                        <strong>Delantero</strong><br /><br />
+>>>>>>> 8b70f7b6c115b996ca96e946a62470bca2b73f05
+
+                                        <img width="300px" height="150px" id="img_d" src="http://{{request.get_host}}/uploads/{{imagen_delantera}}" class="img-responsive">
+                                      </td>
+                                      
+                                      <td>
+                                        <a  class="btn btn-success">ESCANEAR</a> {{form.fotografia_trasera}}   
+                                        <a id="a_it" class="btn btn-danger">
+                                          <i class="fa fa-trash"></i>
+                                        </a><br /><br />
+                                        <strong>Trasero</strong><br /><br />
+                                        <img width="300px" height="150px" id="img_t" src="http://{{request.get_host}}/uploads/{{imagen_trasera}}" class="img-responsive">
+                                      </td>
+                                  </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            {% include "inspeccion/includes/progreso_inspeccion_menu.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block javascript %}
+  <script type="text/javascript">
+    $(document).ready(function($) {
+      function readURL(input,id_imagen) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $(id_imagen).attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+      }
+      function reset_input_and_img(id_img,id_input){
+        $(id_img).attr('src','');
+        $(id_input).val("");
+      }
+
+    $("#input_id").change(function(){
+        readURL(this,'#img_d');
+    });
+
+    $("#input_it").change(function(){
+        readURL(this,'#img_t');
+    });
+
+    $('#a_id').click(function(event) {
+      reset_input_and_img('#img_d','#input_id');
+    });
+
+    $('#a_it').click(function(event) {
+      reset_input_and_img('#img_t','#input_it');
+    });
+
+    });
+  </script>
+{% endblock %}

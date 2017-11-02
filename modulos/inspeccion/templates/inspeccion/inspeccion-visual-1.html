@@ -1,0 +1,100 @@
+{% extends "base_auth.html" %}
+{% block title %}Inspeccion Visual - Motor | Ingresar Vehiculo | ClickControl{% endblock %}
+{% block contenido %}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">1 - Inspección Visual</h1>
+        </div>
+    </div>
+
+    <form method="post">{% csrf_token %}
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-eye fa-fw"></i> Inspección Visual - Motor
+                </div>
+
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+
+                                <table class="table table-striped table-bordered table-hover inspeccion">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Deficiente</th>
+                                            <th>Aceptable</th>
+                                            <th>Óptimo</th>
+                                            <th>No aplica</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        {% if inspeccion_detalle %}
+
+                                            {% for macro in inspeccion_detalle.macro_value.values %}
+                                            <tr>
+                                                <td width="40%">{{macro.nombre}}</td>
+                                                <td align="center">
+                                                    <input {% if macro.condicion == 'deficiente' %}checked{% endif %} value="deficiente" name="{{macro.slug}}" type="radio">
+                                                </td>
+                                                <td align="center">
+                                                    <input {% if macro.condicion == 'aceptable' %}checked{% endif %} value="aceptable" name="{{macro.slug}}" type="radio">
+                                                </td>
+                                                <td align="center">
+                                                    <input {% if macro.condicion == 'optimo' %}checked{% endif %} value="optimo" name="{{macro.slug}}" type="radio">
+                                                </td>
+                                                <td align="center">
+                                                    <input {% if macro.condicion == 'no_aplica' %}checked{% endif %} value="no_aplica" name="{{macro.slug}}" type="radio">
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+
+                                        {% else %}
+
+                                            {% for macro in macros %}
+                                                <tr>
+                                                    <td width="40%">{{macro.nombre}}</td>
+                                                    <td align="center">
+                                                        <input value="deficiente" name="{{macro.nombre_slug}}" type="radio" required>
+                                                    </td>
+                                                    <td align="center">
+                                                        <input value="aceptable" name="{{macro.nombre_slug}}" type="radio" required>
+                                                    </td>
+                                                    <td align="center">
+                                                        <input value="optimo" name="{{macro.nombre_slug}}" type="radio" required>
+                                                    </td>
+                                                    <td align="center">
+                                                        <input value="no_aplica" name="{{macro.nombre_slug}}" type="radio" required>
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                        {% endif %}
+
+                                    </tbody>
+                                </table>
+
+                                <strong>Observaciones</strong>
+                                
+                                <textarea name="observacion" class="form-control" placeholder="Escriba cualquier observación si corresponde">{% if inspeccion_detalle %}{{inspeccion_detalle.observacion}}{% endif %}</textarea>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            {% include "inspeccion/includes/progreso_inspeccion_menu.html" %}
+        </div>
+    </div>
+    </form>
+</div>
+{% endblock %}

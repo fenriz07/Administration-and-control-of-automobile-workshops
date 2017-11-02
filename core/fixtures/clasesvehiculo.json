@@ -1,0 +1,104 @@
+[
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "AUTOMOVIL"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "BUS"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "BUSETA"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "CAMION"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "CAMIONETA"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "CAMPERO"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "MICROBUS"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "TRACTOCAMION"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "MOTOCICLETA"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "MOTOCARRO"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "MOTOTRICICLO"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "CUATRIMOTO"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "REMOLQUE"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "SEMIREMOLQUE"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "VOLQUETA"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "SIN CLASE"
+   }
+},
+ {
+   "model": "vehiculo.clasevehiculo",
+   "fields": {
+      "nombre": "MAQ. CONSTRUCCION O MINERA"
+   }
+}
+]

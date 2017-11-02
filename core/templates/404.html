@@ -1,0 +1,16 @@
+{% extends "base_not_login.html" %}
+{% load static %}
+
+{% block title %} ClickControl | 404 {% endblock %}
+
+{% block body %}
+<body class="login">
+  <div class="container">
+
+      <h2 class="form-signin-heading"><img src="{% static 'images/logo.png' %}"></h2>
+      <p style="color: #fff;">404 Pagina no enontrada</label>
+      <p><a class="btn btn-primary btn-lg btn-block" href="/" role="button">Ir al inicio</a></p>
+  </div>
+</body>
+
+{% endblock %}

@@ -1,0 +1,98 @@
+[
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Usuarios",
+        "content_type": 10,
+        "codename": "usuarios"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Ingresar Vehículo",
+        "content_type": 10,
+        "codename": "ingresar_vehiculo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Datos básicos",
+        "content_type": 10,
+        "codename": "datos_basicos"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Carga de Documentos",
+        "content_type": 10,
+        "codename": "carga_documentos"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Inspección visual",
+        "content_type": 10,
+        "codename": "inspeccion_visual"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Fotografias vehículo",
+        "content_type": 10,
+        "codename": "fotografias_vehiculo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Carga análisis",
+        "content_type": 10,
+        "codename": "carga_analisis"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Cargar con Improntas",
+        "content_type": 10,
+        "codename": "cargar_improntas"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Historial y Reportes",
+        "content_type": 10,
+        "codename": "historial_reportes"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Backup",
+        "content_type": 10,
+        "codename": "backup"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Soporte",
+        "content_type": 10,
+        "codename": "soporte"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Macros",
+        "content_type": 10,
+        "codename": "macros"
+    }
+}
+]

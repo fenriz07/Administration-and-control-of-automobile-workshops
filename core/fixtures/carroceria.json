@@ -1,0 +1,1196 @@
+[
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SIN CARROCERIA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ESTACAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA O TANQUE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VOLCO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TOLVA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SRS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CERRADA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SEDAN"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ESTIBAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOTELLERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PICK UP"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "HORMIGONERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "NIÑERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "COUPE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CONVERTIBLE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CABINADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARPADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "STATION WAGON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "COMPACTADORA O RODILLO APLANADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BARREDORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "LIMPIA ALCANTARILLAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBA DE CONCRETO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PANEL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "COUPE CONVERTIBLE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TALLER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "RECOLECTOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ABIERTO (ESCALERA)"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMABAJA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "HATCH BACK"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VAN"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUETA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TALADRO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMPAMENTO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUE (GRANELERO)"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "AMBULANCIA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO ESPECIAL DEL SECTOR PETROLERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ESCALERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMABAJA BAGACERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMA ALTA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CASA RODANTE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE CEMENTACION Ó BOMBA DE HORMIGON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON EQUIPO ESPECIAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GENERADOR DE NITROGENO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO PETROLERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BLINDADO PARA TRANSPORTE DE VALORES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA AEREA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA DE SOSTENIMIENTO DE REDES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO IRRIGADOR DE AGUA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO IRRIGADOR DE ASFALTO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE LAVADO Y SUCCION"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE SANEAMIENTO AMBIENTAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARROTALLER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE RIEGO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE MINERIA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "RECOLECTOR COMPACTADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUE FRAC TANK"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON (TRITURADOR DE PAPEL)"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FRACTURADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA MODULAR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON CAMABAJA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TRANSPORTADOR DE TUBOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "METALICA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MEZCLADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA DE TIRO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBA ACIDOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON REFRIGERADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ARRASTRADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ARTICULADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BULDOZER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARGADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EXCAVADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MINITRACTOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MONTACARGA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "NIVELADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TRILLADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "RETROEXCAVADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TRACTOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "AUTOBOMBA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BUGGY"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARRETA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "LIMOSINA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLANCHON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "REPARTO Ó PALET"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA PLANCHON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA HIDRAULICA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MAQ. BOMBEROS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA VOLCO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "UNIDAD MOVIL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA ESTACAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA FURGON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TURISMO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CROSS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SCOOTER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SPORT"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRANELERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PORTA CONTENEDOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "COMPACTADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ASPERSORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "WAGON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PERFORADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE RESCATE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAÑERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GRUA ELEVADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BIARTICULADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAPOTA DUAL "
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PICK UP CABINADA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CUSTOM"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FORESTAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PORTA CONTENEDOR HIGH CUBE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOLLY"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON FRIGORIFICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON CORTINERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA PARA COMBUSTIBLE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA PARA QUIMICOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA PARA ACIDO SULFURICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA SILO EN V"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA SILO CILINDRICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA TERMICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VOLCO GRANELERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "COSECHADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SEMBRADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PULVERIZADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ENFARFADORA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "RETROEXCAVADORA CARGADORAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CORTADORAS DE PAVIMENTO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VIBROCOMPACTADORES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FINISHERS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO DE PAVIMENTACION"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PERFILADORAS DE PAVIMENTO EN FRIO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "RECUPERADOR DE CAMINOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "ARASTRADOR DE TRONCOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EXCAVADORA DE RUEDAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EXCAVADORA HIDRAULICA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARGADOR DE RUEDAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARGADOR DE CADENAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MINICARGADOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MOTOTRAILLAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA CERRADA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON EQUIPO ESPECIAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLANCHON  PLATAFORMA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA PICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA PANEL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PICÓ CERRADA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "SPOOLER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMABAJA - TANQUE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARROSADO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "NIÑERA PORTABOTE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON ESTACAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON ESTACAS DESMONTABLES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON ESTACAS METALICAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA CON ESTACAS REMOVIBLES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA PORTACILINDROS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA TORRE DE ILUMINACION"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VOLCO - PLATON"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TOLVA PIPA CEMENTERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUE DE LODOS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA BARANDAS DESARMABLES"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA BRAZO AUTOPORTANTE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "VOLQUETE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "UNIDAD DE CEMENTACION"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FRAC TANK"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATAFORMA MODULAR CARBONERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CISTERNA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA CON PLATAFORMA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON CON EQUIPO ESPECIAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBA DE CEMENTACION"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BOMBA DE NITROGENO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CABINA EXTENDIDA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "LABORATORIO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MESA ROTARIA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "UNIDAD DE ALMACENAMIENTO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PORTAMODULOS PARA GAS"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MODULAR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO NITROGENO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "GASODUCTO MOVIL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MULTIPROPOSITO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOBLE CABINA TRACCION SENCILLA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMABAJA CON EQUIPO ESPECIAL"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO CARBONERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "NIÑERA MULTIPROPOSITO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUE ESFERICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "TANQUE CILINDRICO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CARBONERA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "CAMA CUNA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EQUIPO HIDROLIMPIEZA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "DOLLY TRAYLER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "UNIDAD MÉDICA"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "MULTIPLE"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "BAGACERO"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "FURGON-SIDER"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "EYECTOR"
+   }
+},
+ {
+   "model": "vehiculo.tipocarroceria",
+   "fields": {
+      "nombre": "PLATÓN CON LATERALES ABATIBLES"
+   }
+}
+]

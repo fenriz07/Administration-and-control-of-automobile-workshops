@@ -1,0 +1,28 @@
+{% extends "base_auth.html" %}
+{% block title %}Eliminar Backup | ClickControl{% endblock %}
+{% block contenido %}
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="page-header">Eliminar Backup</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <form method="post">{% csrf_token %}
+                    <div class="alert alert-danger alert-dismissible fade in" role="alert"> 
+                        
+                        <h4><i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i>  Alerta!</h4> 
+                        <p>¿Seguro que desea eliminar el respaldo <b>{{request.resolver_match.kwargs.backup}}</b>? <b>({{archivo | filesizeformat}})</b></p><br>
+
+                        Ésta opción no se podrá deshacer.<br><br>
+
+                        <p> 
+                            <button type="submit" class="btn btn-danger">Eliminar</button> 
+                            <a href="{% url 'backup' %}" class="btn btn-default">Cancelar</a> 
+                        </p> 
+                    </div>
+                </form>
+            </div>
+        </div>
+{% endblock %}

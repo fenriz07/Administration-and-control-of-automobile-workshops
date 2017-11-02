@@ -1,0 +1,183 @@
+{% extends "base_auth.html" %}
+{% block title %}Crear Usuario | ClickControl{% endblock %}
+{% block contenido %}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Crear Usuario</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <form method="post" enctype='multipart/form-data'>{% csrf_token %}
+            <div class="col-lg-8 col-md-7">
+
+
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="alert alert-{{message.tags}} alert-dismissable">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{message}}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+            
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-user fa-fw"></i> Datos del nuevo usuario
+                    </div>
+                    <div class="panel-body form-base">
+                        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <strong>Nombre</strong>
+                                {{form.nombre}}
+                            </div>
+                            <div class="col-lg-6">
+                               <strong>Apellido</strong>
+                               {{form.apellido}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <strong>Tipo de Documento</strong>
+                                {{form.tipo_documento}}
+                            </div>
+                            <div class="col-lg-6">
+                               <strong>N° Documento</strong>
+                               {{form.numero_documento}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <strong>Dirección</strong>
+                                {{form.direccion}}
+                            </div>
+                            <div class="col-lg-6">
+                               <strong>Teléfono</strong>
+                               {{form.telefono}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <strong>Teléfono de Emergencia</strong>
+                                {{form.telefono_emergencia}}
+                            </div>
+                            <div class="col-lg-6">
+                               <strong>Fotografía</strong>
+                               {{form.fotografia}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 {% if form.errors %}has-error{% endif %}">
+                                <label class="control-label" for="id_email">Correo Electrónico (será el usuario)</label>
+                                {{form.email}}
+                                <span class="help-block">{{form.errors.email}}</span>
+                            </div>
+                            <div class="col-lg-6">
+                               <strong>Contraseña</strong>
+                               {{form.password}}
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <p>Al dar clic sobre el boton <strong>Crear Usuario</strong> será enviado un mensaje al correo indicado con los datos de acceso. Recuerde asignar correctamente los permisos.</p>
+                <input value="Crear Usuario" type="submit" class="btn btn-primary">
+                <br><br>
+            </div>
+            <div class="col-lg-4 col-md-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <i class="fa fa-bell fa-fw"></i> Permisos
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="list-group">
+                            <label class="list-group-item">
+                                <i class="fa fa-users fa-fw"></i> Usuarios
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.0.tag}}
+                                </span>
+                            </label>
+                            
+                            <label class="list-group-item">
+                                <i class="fa fa-car fa-fw"></i> Ingresar Vehículo
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.1.tag}}
+                                </span>
+                            </label>
+
+                             <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Datos básicos
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.2.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Carga de documentos
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.3.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Inspección visual
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.4.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Fotografias vehículo
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.5.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Carga análisis
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.6.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item sub-item-permisos">
+                                <i class="fa fa-arrow-right fa-fw"></i>Cargar con improntas
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.7.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item">
+                                <i class="fa fa-history fa-fw"></i> Historial y Reportes
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.8.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item">
+                                <i class="fa fa-shield fa-fw"></i> BackUp
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.9.tag}}
+                                </span>
+                            </label>
+
+                            <label class="list-group-item">
+                                <i class="fa fa-support fa-fw"></i> Soporte
+                                <span class="pull-right text-muted small">
+                                    {{form.permisos.10.tag}}
+                                </span>
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

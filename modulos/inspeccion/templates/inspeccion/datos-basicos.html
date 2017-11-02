@@ -1,0 +1,280 @@
+{% extends "base_auth.html" %}
+{% block title %}Datos Basicos | Ingresar Vehiculo | ClickControl{% endblock %}
+{% block contenido %}
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Datos Básicos</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{message.tags}} alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{message}}
+
+                    {% if form.errors %}
+                        <br><br>
+                        {% for field in form %}
+                            {% if field.errors %}
+                            <li>{{ field.label_tag }}  {{ field.errors|striptags }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        <div class="col-lg-8">
+            <div class="row">
+              <form method="post">{% csrf_token %}
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <tr>
+                                <td><strong>Fecha</strong></td>
+                                <td>{% now "j F Y" %}</td>
+                                <td><strong>N° Inspección</strong></td>
+                                <td>{{ci}}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Placa</strong></td>
+                                <td>{{form.placa}}</td>
+                                <td><strong>Verifique la placa</strong></td>
+                                <td>{{form.placa_2}}</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rombo</strong></td>
+                                <td>{{form.numero_rombo}}</td>
+                                <td><strong>Ciudad</strong></td>
+                                <td>{{form.ciudad}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Propietario
+                </div>
+
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                    <tr>
+                                        <td><strong>Tipo de propietario</strong></td>
+                                        <td colspan="3">
+                                        {{form.tipo_propietario}}
+                                        </td>
+                                    </tr>
+                                    <tr class="mostrar-empresa">
+                                        <td><strong>Razón Social</strong></td>
+                                        <td>{{form.razon_social}}</td>
+                                        <td><strong>NIT</strong></td>
+                                        <td>{{form.nit}}</td>
+                                    </tr>
+                                    <tr class="mostrar-empresa">
+                                        <td><strong>Verificar NIT</strong></td>
+                                        <td>{{form.nit_2}}</td>
+                                        <!--<td><strong>Ciudad</strong></td>
+                                        <td>{{form.ciudad_2}}</td>-->
+                                    </tr>
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Nombres</strong></td>
+                                        <td>{{form.nombres}}</td>
+                                        <td><strong>Apellidos</strong></td>
+                                        <td>{{form.apellidos}}</td>
+                                    </tr>
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Tipo identificación</strong></td>
+                                        <td>{{form.tipo_identificacion}}</td>
+                                        <td><strong>Cédula de ciudadania (NIT)</strong></td>
+                                        <td>{{form.cedula_ciudadania}}</td>
+                                    </tr>
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Edad</strong></td>
+                                        <td>{{form.edad}}</td>
+                                        <td><strong>Profesión</strong></td>
+                                        <td>{{form.profesion_propietario}}</td>
+                                    </tr>
+                                    <tr class="mostrar-ambas">
+                                        <td><strong>Dirección</strong></td>
+                                        <td>{{form.direccion}}</td>
+                                        <td><strong>Teléfono fijo</strong></td>
+                                        <td>{{form.telefono_fijo}}</td>
+                                    </tr>
+                                    <tr class="mostrar-ambas">
+                                        <td><strong>Teléfono celular</strong></td>
+                                        <td>{{form.telefono_celular}}</td>
+                                        <td><strong>Ciudad</strong></td>
+                                        <td>{{form.ciudad_2}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Vehículo
+                </div>
+
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                        <tr>
+                                            <td><strong>Marca</strong></td>
+                                            <td>{{form.marca_vehiculo}}</td>
+                                            <td><strong>Clase</strong></td>
+                                            <td>{{form.clase_vehiculo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Tipo</strong></td>
+                                            <td>{{form.tipo_vehiculo}}</td>
+                                            <td><strong>Modelo</strong></td>
+                                            <td>{{form.modelo_vehiculo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Carrocería</strong></td>
+                                            <td>{{form.carroceria_vehiculo}}</td>
+                                            <td><strong>Tipo de caja</strong></td>
+                                            <td>{{form.tipo_caja}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Nacionalidad</strong></td>
+                                            <td>{{form.nacionalidad_vehiculo}}</td>
+                                            <td><strong>Color</strong></td>
+                                            <td>{{form.color_vehiculo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Tipo de pintura</strong></td>
+                                            <td>{{form.tipo_pintura}}</td>
+                                            <td><strong>Combustible</strong></td>
+                                            <td>{{form.tipo_combustible}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Cilindraje</strong></td>
+                                            <td>{{form.cilindraje_vehiculo}}</td>
+                                            <td><strong>N° Motor</strong></td>
+                                            <td>{{form.numero_motor_vehiculo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>N° Serie</strong></td>
+                                            <td>{{form.numero_serie_vehiculo}}</td>
+                                            <td><strong>N° Chsis</strong></td>
+                                            <td>{{form.numero_chasis_vehiculo}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Servicio</strong></td>
+                                            <td>{{form.servicio_vehiculo}}</td>
+                                            <td><strong>Kilometraje</strong></td>
+                                            <td>{{form.kilometraje_vehiculo}}</td>
+                                        </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Valores
+                </div>
+
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                        <tr>
+                                            <td><strong>V/R Cliente</strong></td>
+                                            <td>{{form.v_r_cliente}}</td>
+                                            <td><strong>V/R Fasecolda</strong></td>
+                                            <td>{{form.v_r_fasecolda}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>V/R Empresa</strong></td>
+                                            <td>{{form.v_r_empresa}}</td>
+                                            <td><strong>V/R Accesorios</strong></td>
+                                            <td>{{form.v_r_accesorios}}</td>
+                                        </tr>
+
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            {% include "inspeccion/includes/progreso_inspeccion_menu.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+{% block javascript %}
+<script type="text/javascript">
+    $(function() {
+        $('.django-select2').select2();
+
+        if($('#mostrar').val() == '1') {
+            $('.mostrar-empresa').show();
+            $('.mostrar-persona').hide();
+            //$('.mostrar-persona input').prop('disabled', true);
+        }
+        else if($('#mostrar').val() == '2'){
+            $('.mostrar-persona').show();
+            $('.mostrar-empresa').hide();
+            //$('.mostrar-empresa input').prop('disabled', true);
+        }else{
+            $('.mostrar-persona').hide();
+            $('.mostrar-empresa').hide();
+            $('.mostrar-ambas').hide();
+        }
+
+
+        $('#mostrar').change(function(){
+            if($('#mostrar').val() == '1') {
+                $('.mostrar-persona').hide();
+                $('.mostrar-empresa').show();
+                $('.mostrar-ambas').show();
+                //$('.mostrar-persona input').prop('disabled', true);
+            } else if($('#mostrar').val() == '2'){
+                $('.mostrar-empresa').hide();
+                $('.mostrar-persona').show();
+                $('.mostrar-ambas').show();
+               // $('.mostrar-persona input').prop('disabled', false);
+            }else{
+                $('.mostrar-persona').hide();
+                $('.mostrar-empresa').hide();
+                $('.mostrar-ambas').hide();
+            }
+        });
+    });
+
+</script>
+
+{% endblock %}

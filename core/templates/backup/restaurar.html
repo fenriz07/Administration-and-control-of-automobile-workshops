@@ -1,0 +1,28 @@
+{% extends "base_auth.html" %}
+{% block title %}Restaurar Backup | ClickControl{% endblock %}
+{% block contenido %}
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="page-header">Restaurar Backup</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <form method="post">{% csrf_token %}
+                    <div class="alert alert-warning alert-dismissible fade in" role="alert"> 
+                        
+                        <h4><i class="fa fa-exclamation-triangle fa-2x" aria-hidden="true"></i>  Alerta!</h4> 
+                        <p>¿Seguro que desea restaurar el respaldo <b>{{request.resolver_match.kwargs.backup}}</b>? <b>({{archivo | filesizeformat}})</b></p><br>
+
+                        Tenga en cuenta que realizar ésta acción podría ocasionar pérdida de datos. Si desea continuar, haga click en <b>Restaurar</b>. A continuación, deberá iniciar sesión nuevamente.<br><br>
+
+                        <p> 
+                            <button type="submit" class="btn btn-warning">Restaurar</button> 
+                            <a href="{% url 'backup' %}" class="btn btn-default">Cancelar</a> 
+                        </p> 
+                    </div>
+                </form>
+            </div>
+        </div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base_not_login.html" %}
+{% load static %}
+
+{% block title %} ClickControl | Login {% endblock %}
+
+{% block body %}
+<body class="login">
+  <div class="container">
+    <form class="form-signin" method="post">{% csrf_token %}
+      <h2 class="form-signin-heading"><img src="{% static 'images/logo.png' %}"></h2>
+      <label for="inputEmail" class="sr-only">Correo electrónico</label>
+      <input type="email" id="inputEmail" class="form-control entrada" placeholder="Correo electrónico" required autofocus name="email">
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control entrada" placeholder="Contraseña" required name="password">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Recordarme
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+    </form>
+    <!-- TODO: mejorar mensajes de error -->
+    {% if error %}
+      <p style="color: #fff;">{{error}}</label>
+    {% endif %}
+  </div>
+</body>
+
+{% endblock %}

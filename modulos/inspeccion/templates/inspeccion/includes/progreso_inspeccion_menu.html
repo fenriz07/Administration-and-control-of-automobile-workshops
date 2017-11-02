@@ -1,0 +1,116 @@
+{% load progreso_inspeccion %}
+<div class="panel panel-default panel-progreso">
+    <div class="panel-heading">
+        <i class="fa fa-indent fa-fw"></i> Progreso
+    </div>
+    <div class="panel-body">
+        <div class="list-group ">
+
+            {% if 'datos_basicos' in request.session.user_perms or request.user.is_superuser %}
+            <a href="{% url 'inspeccion:datos_basicos' %}">
+                <span class="list-group-item {% if 'datos-basicos' in request.path %}list-group-item-success{% endif %}">
+
+                    <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos
+                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                    </span>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if 'carga_documentos' in request.session.user_perms or request.user.is_superuser %}
+            <a href="{% if inspeccion %}{% url 'inspeccion:carga_documentos' inspeccion.id %}{% else %}#{% endif %}">
+                <span class="list-group-item {% if 'carga-documentos' in request.path %}list-group-item-success{% endif %}">
+                    <i class="fa fa-upload fa-fw"></i> Carga de documentos
+                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                    </span>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if 'inspeccion_visual' in request.session.user_perms or request.user.is_superuser %}
+                {% if 'inspeccion-visual' in request.path %}
+                    <span class="list-group-item">
+                        <i class="fa fa-eye fa-fw"></i> Inspección visual
+
+                            <a href="{% if inspeccion %}{% url 'inspeccion:inspeccion_visual' inspeccion.id %}{% else %}#{% endif %}">
+                                <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                <span class="list-group-item list-group-item-success">
+                                    <i class="fa fa-eye fa-fw"></i> Motor
+                                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                </span>
+                            </a>
+
+                            <a href="{% if inspeccion %}{% url 'inspeccion:inspeccion_visual' inspeccion.id %}?step=exterior{% else %}#{% endif %}">
+                                <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                <span class="list-group-item {% if request.GET.step == 'exterior' or request.GET.step == 'interior' or request.GET.step == 'parte_baja' %}list-group-item-success{% endif %}">
+                                    <i class="fa fa-eye fa-fw"></i> Exteriores
+                                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                </span>
+                            </a>
+
+                            <a href="{% if inspeccion %}{% url 'inspeccion:inspeccion_visual' inspeccion.id %}?step=interior{% else %}#{% endif %}">
+                                <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                <span class="list-group-item {% if request.GET.step == 'interior' or request.GET.step == 'parte_baja' %}list-group-item-success{% endif %}">
+                                    <i class="fa fa-eye fa-fw"></i> Interior
+                                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                </span>
+                            </a>
+
+                            <a href="{% if inspeccion %}{% url 'inspeccion:inspeccion_visual' inspeccion.id %}?step=parte_baja{% else %}#{% endif %}">
+                                <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                <span class="list-group-item {% if request.GET.step == 'parte_baja' %}list-group-item-success{% endif %}">
+                                    <i class="fa fa-eye fa-fw"></i> Parte baja
+                                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i></span>
+                                </span>
+                            </a>
+                    </span>
+                {% else %}
+                    <a href="{% if inspeccion %}{% url 'inspeccion:inspeccion_visual' inspeccion.id %}{% else %}#{% endif %}">
+                        <span class="list-group-item {% if 'inspeccion-visual' in request.path %}list-group-item-success{% endif %}">
+                            <i class="fa fa-eye fa-fw"></i> Inspección visual
+                            <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                            </span>
+                        </span>
+                    </a>
+                {% endif %}
+            {% endif %}
+
+            {% if 'fotografias_vehiculo' in request.session.user_perms or request.user.is_superuser %}
+            <a href="{% if inspeccion %}{% url 'inspeccion:fotografias_vehiculo' inspeccion.id %}{% else %}#{% endif %}">
+                <span class="list-group-item {% if 'fotografias-vehiculo' in request.path %}list-group-item-success{% endif %}">
+                    <i class="fa fa-camera fa-fw"></i> Fotografías vehiculo
+                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                    </span>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if 'carga_analisis' in request.session.user_perms or request.user.is_superuser %}
+            <a href="{% if inspeccion %}{% url 'inspeccion:carga_analisis' inspeccion.id %}{% else %}#{% endif %}">
+                <span class="list-group-item {% if 'carga-analisis' in request.path %}list-group-item-success{% endif %}">
+                    <i class="fa fa-upload fa-fw"></i> Carga análisis
+                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                    </span>
+                </span>
+            </a>
+            {% endif %}
+
+            {% if 'cargar_improntas' in request.session.user_perms or request.user.is_superuser %}
+            <a href="{% if inspeccion %}{% url 'inspeccion:cargar_improntas' inspeccion.id %}{% else %}#{% endif %}">
+                <span class="list-group-item {% if 'cargar-improntas' in request.path %}list-group-item-success{% endif %}">
+                    <i class="fa fa-upload fa-fw"></i> Cargar con improntas
+                    <span class="pull-right text-muted small"><i class="fa fa-remove"></i>
+                    </span>
+                </span>
+            </a>
+            {% endif %}
+        </div>
+        
+
+        <!-- TODO: mostrar boton submit en el ultimo paso, de acuerdo a los permisos del usuario -->
+
+        <!-- <a href="#" class="btn btn-success">REGRESAR</a> -->
+        <button type="submit" class="btn btn-success">{% siguiente %}</button>
+      </form>
+    </div>
+</div>

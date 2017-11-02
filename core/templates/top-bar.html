@@ -1,0 +1,121 @@
+{% load static %}
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{% url 'inicio' %}"><img src="{% static 'images/logo.png' %}"></a>
+    </div>
+
+    <ul class="nav navbar-top-links navbar-right">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-user">
+                <li><a href="{% url 'usuarios:listar' %}"><i class="fa fa-user fa-fw"></i> Datos de Usuario</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="{% url 'logout' %}"><i class="fa fa-sign-out fa-fw"></i> Salir</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li class="saludo-usuario">
+                    <h2>Bienvenido</h2>
+                    <h3>{{request.user.first_name}} {{request.user.last_name}}</h3>
+                </li>
+                <li>
+                    <a href="{% url 'inicio' %}" title="Inicio"><i class="fa fa-dashboard fa-fw"></i> Inicio</a>
+                </li>
+                
+                {% if 'usuarios' in request.session.user_perms or request.user.is_superuser %} 
+                    <li>
+                        <a href="#" title="Usuarios"><i class="fa fa-users fa-fw"></i> Usuarios<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{% url 'usuarios:registro' %}" title="Crear Usuario">Crear Usuario</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'usuarios:listar' %}" title="Editar Usuario">Manejar Usuarios</a>
+                            </li>
+                        </ul>
+                    </li>
+                {% endif %}
+
+                {% if 'datos_basicos' in request.session.user_perms or request.user.is_superuser %}
+                    <li>
+                        <a href="#" title="Ingresar Vehículo">
+                            <i class="fa fa-car fa-fw"></i> Ingresar Vehículo 
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{% url 'inspeccion:datos_basicos' %}" title="Ingresar Vehículo">Ingresar</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'inspeccion:listar' %}" title="Buscar Vehículo">Buscar</a>
+                            </li>
+                        </ul>
+                    </li>
+                {% endif %}
+
+                {% if 'historial_reportes' in request.session.user_perms or request.user.is_superuser %}
+                    <li>
+                        <a href="{% url 'reportes' %}" title="Historial y Reportes">
+                            <i class="fa fa-history fa-fw"></i> Historial y Reportes
+                        </a>
+                    </li>
+                {% endif %}
+
+                {% if 'backup' in request.session.user_perms or request.user.is_superuser %}
+                    <li>
+                        <a href="{% url 'backup' %}" title="BackUp">
+                            <i class="fa fa-shield fa-fw"></i> BackUp
+                        </a>
+                    </li>
+                {% endif %}
+
+                {% if 'macros' in request.session.user_perms or request.user.is_superuser %}
+                    <li>
+                        <a href="#" title="Macros">
+                            <i class="fa fa-cogs fa-fw"></i> Macros<span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{% url 'macros:consecutivo_inspeccion' %}" title="Consecutivo Inspección">Consecutivo Inspección</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'macros:inspeccion_motor' %}" title="Inspección Motor">Inspección Motor</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'macros:inspeccion_exterior' %}" title="Inspección Exterior">Inspección Exterior</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'macros:inspeccion_interior' %}" title="Inspección Interior">Inspección Interior</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'macros:inspeccion_parte_baja' %}" title="Inspección Parte Baja">Inspección Parte Baja</a>
+                            </li>
+                        </ul>
+                    </li>
+                {% endif %}
+
+                {% if 'soporte' in request.session.user_perms or request.user.is_superuser %}
+                    <li>
+                        <a href="#" title="Soporte">
+                            <i class="fa fa-support fa-fw"></i> Soporte
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>

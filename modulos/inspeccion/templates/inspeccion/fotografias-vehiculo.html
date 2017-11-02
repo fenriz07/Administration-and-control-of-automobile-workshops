@@ -1,0 +1,103 @@
+{% extends "base_auth.html" %}
+{% block title %}Fotografias del Vehículo | Ingresar Vehiculo | ClickControl{% endblock %}
+{% block contenido %}
+{% load static %}
+
+
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Fotografias del Vehículo</h1>
+
+        </div>
+    </div>
+
+    <div class="row">
+      {% if messages %}
+          {% for message in messages %}
+              <div class="alert alert-{{message.tags}} alert-dismissable">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{{message}}
+              </div>
+          {% endfor %}
+      {% endif %}
+        <div class="col-lg-8">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="fa fa-camera fa-fw"></i> Fotografías del vehículo
+                </div>
+
+                <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="my_camera"></div>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                  <tr>
+                                      <td><a class="btn btn-success tomar_foto" data-foto="#fotografia_superior_derecha" data-input="#data_fotografia_superior_derecha"><i class="fa fa-camera"></i>FOTOGRAFÍA SUPERIOR DERECHA</a><a  class="btn btn-danger borrar_foto" data-foto="#fotografia_superior_derecha" data-input="#data_fotografia_superior_derecha"><i class="fa fa-trash"></i></a><br /><br /><img id="fotografia_superior_derecha" src="{% if inspeccion_fotografia %} http://{{request.get_host}}/uploads/{{inspeccion_fotografia.img_superior_derecha}}{% else %} {% static 'images/images.jpg' %} {% endif %}" class="img-responsive"></td>
+                                      <td><a class="btn btn-success tomar_foto" data-foto="#fotografia_superior_izquierda" data-input="#data_fotografia_superior_izquierda"><i class="fa fa-camera"></i> FOTOGRAFÍA SUPERIOR IZQUIERDA</a><a class="btn btn-danger borrar_foto" data-foto="#fotografia_superior_izquierda" data-input="#data_fotografia_superior_izquierda" ><i class="fa fa-trash"></i></a><br /><br /><img id="fotografia_superior_izquierda" src="{% if inspeccion_fotografia %} http://{{request.get_host}}/uploads/{{inspeccion_fotografia.img_superior_izquierda}}{% else %} {% static 'images/images.jpg' %} {% endif %}" class="img-responsive"></td>
+                                      <td><a class="btn btn-success tomar_foto" data-foto="#fotografia_delantera" data-input="#data_fotografia_delantera"><i class="fa fa-camera"></i> FOTOGRAFÍA DELANTERA</a><a class="btn btn-danger borrar_foto" data-foto="#fotografia_delantera" data-input="#data_fotografia_delantera"><i class="fa fa-trash"></i></a><br /><br /><img id="fotografia_delantera" src="{% if inspeccion_fotografia %} http://{{request.get_host}}/uploads/{{inspeccion_fotografia.img_delantera}}{% else %} {% static 'images/images.jpg' %} {% endif %}" class="img-responsive"></td>
+                                  </tr>
+                                  <tr>
+                                      <td><a class="btn btn-success tomar_foto" data-foto="#fotografia_trasera" data-input="#data_fotografia_trasera"><i class="fa fa-camera"></i> FOTOGRAFÍA TRASERA</a><a class="btn btn-danger borrar_foto" data-foto="#fotografia_trasera" data-input="#data_fotografia_trasera"><i class="fa fa-trash"></i></a><br /><br /><img id="fotografia_trasera" src="{% if inspeccion_fotografia %} http://{{request.get_host}}/uploads/{{inspeccion_fotografia.img_trasera}}{% else %} {% static 'images/images.jpg' %} {% endif %}" class="img-responsive"></td>
+                                      <td><a class="btn btn-success tomar_foto" data-foto="#fotografia_interior" data-input="#data_fotografia_interior"><i class="fa fa-camera"></i> FOTOGRAFÍA INTERIOR</a><a class="btn btn-danger borrar_foto" data-foto="#fotografia_interior" data-input="#data_fotografia_interior"><i class="fa fa-trash"></i></a><br /><br /><img id="fotografia_interior" src="{% if inspeccion_fotografia %} http://{{request.get_host}}/uploads/{{inspeccion_fotografia.img_interior}}{% else %} {% static 'images/images.jpg' %} {% endif %}" class="img-responsive"></td>
+                                  </tr>
+                                </table>
+                                <form  method="post"> {% csrf_token %}
+                                  {{ form.fotografia_superior_derecha }}
+                                  {{ form.fotografia_superior_izquierda }}
+                                  {{ form.fotografia_delantera }}
+                                  {{ form.fotografia_trasera }}
+                                  {{ form.fotografia_interior }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            {% include "inspeccion/includes/progreso_inspeccion_menu.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block javascript %}
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+//Configure a few settings and attach camera
+  Webcam.set({
+    height: 420,
+    image_format: 'jpeg',
+    jpeg_quality: 90
+  });
+  Webcam.attach( '#my_camera' );
+
+  //Code to handle taking the snapshot and displaying it locally
+
+  $('.tomar_foto').click(function(event) {
+    var target = $(this).data("foto");
+    var target_data = $(this).data("input");
+    Webcam.snap( function(data_uri) {
+      $(target).attr("src",data_uri);
+      console.log(data_uri);
+      var raw_image_data = data_uri.replace(/^data\:image\/\w+\;base64\,/, '');
+      $(target_data).val(raw_image_data);
+
+
+    } );
+  });
+
+  $('.borrar_foto').click(function(event) {
+    var target = $(this).data('foto');
+    var target_data = $(this).data("input");
+    $(target).attr("src","{% static 'images/images.jpg' %}");
+    $(target_data).val("");
+  });
+
+
+
+});
+</script>
+{% endblock %}

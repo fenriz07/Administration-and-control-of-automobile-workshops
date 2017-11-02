@@ -1,0 +1,42 @@
+{% extends "base_auth.html" %}
+{% block title %}Carga con Improntas | Ingresar Vehiculo | ClickControl{% endblock %}
+{% block contenido %}
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">CARGA CON IMPRONTAS</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-upload fa-fw"></i>  Cargar informe con improntas (PDF)
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                      <form method="post" enctype='multipart/form-data'>{% csrf_token %}
+                                        <table class="table table-bordered table-striped">
+                                                <tr>
+                                                    <td colspan="5">{{form.impronta}}<br /></td>
+                                                    {{form.errors.impronta}}
+                                                </tr>
+                                        </table>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    {% include "inspeccion/includes/progreso_inspeccion_menu.html" %}
+                </div>
+            </div>
+        </div>
+  {% endblock %}

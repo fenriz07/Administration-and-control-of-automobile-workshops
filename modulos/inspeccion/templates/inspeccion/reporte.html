@@ -1,0 +1,531 @@
+<!DOCTYPE html>{% load static from staticfiles %}
+
+<html>
+ <head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        @page { 
+            size: a4 portrait;
+            margin: 10mm;
+            counter-increment: page;
+            @bottom-right {
+              content: counter(page);
+            }
+        }
+        .logo {width:200px;}
+        .imagen {width:300px; height:200px;}
+        .imagen_vehiculo {width:325px; height:230px;}
+    </style>
+  
+ </head>
+ <body>
+
+<img src="{% static 'images/logo_black.png' %}" class="logo"><br><br><br>
+
+<div id="wrapper">
+<div id="page-wrapper">
+
+<div class="row">
+    <div class="col-lg-8">                    
+                    
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-striped">                                            
+                        <tbody>
+                            <tr>
+                                <td><strong>Fecha</strong></td>
+                                <td>{{inspeccion.created_at | date:"j F Y"}}</td>
+                                <td><strong>N° Inspección</strong></td>
+                                <td>00012457</td>                                                    
+                            </tr>
+                            <tr>
+                                <td><strong>Placa</strong></td>
+                                <td>{{inspeccion.propietario_vehiculo.placa}}</td> 
+                                <td><strong>Rombo</strong></td>
+                                <td>{{inspeccion.propietario_vehiculo.rombo | default:"---"}}</td>     
+                            </tr>
+                            <tr>
+                                <td><strong>Ciudad</strong></td>
+                                <td>{{inspeccion.propietario_vehiculo.ciudad.nombre}}</td>
+                                <td></td>
+                                <td></td>     
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>                               
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Propietario                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped">    
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Tipo de propietario</strong></td>
+                                        <td colspan="3">{{inspeccion.propietario_vehiculo.propietario.get_tipo_propietario_display}}</td>                                              
+                                    </tr>
+
+                                    {% if inspeccion.propietario_vehiculo.propietario.tipo_propietario == 'empresarial' %}
+                                    <tr class="mostrar-empresa">
+                                        <td><strong>Razón Social</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.nombre}}</td>
+                                        <td><strong>NIT</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.numero_documento}}</td>
+                                    </tr>
+                                    {% else %}
+
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Nombres</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.nombre}}</td>
+                                        <td><strong>Apellidos</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.apellido}}</td>
+                                    </tr>    
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Tipo identificación</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.get_tipo_documento_display}}</td>                                                     
+                                        <td><strong>Cédula de ciudadania (NIT)</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.numero_documento}}</td>
+                                    </tr>
+                                    <tr class="mostrar-persona">
+                                        <td><strong>Edad</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.edad}}</td>
+                                        <td><strong>Profesión</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.profesion}}</td>
+                                    </tr> 
+                                    {% endif %}
+                                    <tr class="mostrar-ambas">
+                                        <td><strong>Dirección</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.direccion}}</td>
+                                        <td><strong>Teléfono fijo</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.telefono_fijo}}</td>
+                                    </tr> 
+                                    <tr class="mostrar-ambas">
+                                        <td><strong>Teléfono celular</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.telefono_celular}}</td>
+                                        <td><strong>Ciudad</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.propietario.ciudad.nombre}}</td>
+                                    </tr> 
+                                                                          
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Vehículo                          
+            </div>
+                                    
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped">                                                                                        
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Marca</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.modelo.marca.nombre}}</td>
+                                        <td><strong>Clase</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.clase}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Tipo</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.tipo}}</td>
+                                        <td><strong>Modelo</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.modelo.nombre}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Carrocería</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.carroceria}}</td>
+                                        <td><strong>Tipo de caja</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.tipo_caja}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Nacionalidad</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.nacionalidad}}</td>
+                                        <td><strong>Color</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.color}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Tipo de pintura</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.tipo_pintura}}</td>
+                                        <td><strong>Combustible</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.tipo_combustible}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Cilindraje</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.vehiculo.cilindraje}}</td> 
+                                        <td><strong>N° Motor</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.numero_motor}}</td>                                                    
+                                    </tr>
+                                    <tr>
+                                        <td><strong>N° Serie</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.numero_serie}}</td> 
+                                        <td><strong>N° Chsis</strong></td>
+                                        <td>{{inspeccion.propietario_vehiculo.numero_chasis}}</td>                                                    
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Servicio</strong></td>
+                                        <td>{{inspeccion.get_tipo_servicio_display}}</td> 
+                                        <td><strong>Kilometraje</strong></td>
+                                        <td>{{inspeccion.kilometraje}}</td>                                                    
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+        <h1 style="page-break-before: always" ></h1>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-bar-chart-o fa-fw"></i> Datos Básicos - Valores                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped">    
+                                <tbody>
+                                    <tr>
+                                        <td><strong>V/R Cliente</strong></td>
+                                        <td>{{inspeccion.vr_cliente}}</td>
+                                        <td><strong>V/R Fasecolda</strong></td>
+                                        <td>{{inspeccion.vr_fasecolda}}</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>V/R Empresa</strong></td>
+                                        <td>{{inspeccion.vr_empresa}}</td>
+                                        <td><strong>V/R Accesorios</strong></td>
+                                        <td>{{inspeccion.vr_accesorios}}</td>
+                                    </tr>                                                                                      
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-upload fa-fw"></i> Carga de documentos - Licencia de transito                            
+            </div>
+                                    
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped">    
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong>Delantero</strong><br><br>
+                                            <img class="imagen" src="{{inspeccion.propietario_vehiculo.propietario.licencia_set.first.imagen_delantera.url}}">
+                                        </td>
+                                        <td>
+                                            <strong>Trasero</strong><br><br>
+                                            <img class="imagen" src="{{inspeccion.propietario_vehiculo.propietario.licencia_set.first.imagen_trasera.url}}">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <h1 style="page-break-before: always" ></h1>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-eye fa-fw"></i> Inspección Visual - Motor                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover inspeccion">
+                                
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Deficiente</th>
+                                        <th>Aceptable</th>
+                                        <th>Óptimo</th>
+                                        <th>No aplica</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for macro in macro_motor.macro_value.values %}
+                                    <tr>
+                                        <td width="50%">{{macro.nombre}}</td>
+                                        <td align="center">{% if macro.condicion == 'deficiente' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'aceptable' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'optimo' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'no_aplica' %}x{% endif %}</td>
+                                    </tr> 
+                                {% endfor %}
+                                </tbody>
+                                
+                            </table>
+                            <strong>Observaciones</strong>
+                            <div class="form-control">{{macro_motor.observacion}}</div>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-eye fa-fw"></i> Inspección Visual - Exteriores                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover inspeccion">
+                                
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Deficiente</th>
+                                        <th>Aceptable</th>
+                                        <th>Óptimo</th>
+                                        <th>No aplica</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for macro in macro_exterior.macro_value.values %}
+                                    <tr>
+                                        <td width="50%">{{macro.nombre}}</td>
+                                        <td align="center">{% if macro.condicion == 'deficiente' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'aceptable' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'optimo' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'no_aplica' %}x{% endif %}</td>
+                                    </tr> 
+                                {% endfor %}
+                                </tbody>
+                                
+                            </table>
+                            <strong>Observaciones</strong>
+                            <div class="form-control">{{macro_exterior.observacion}}</div>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-eye fa-fw"></i> Inspección Visual - Interior                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover inspeccion">
+                                
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Deficiente</th>
+                                        <th>Aceptable</th>
+                                        <th>Óptimo</th>
+                                        <th>No aplica</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for macro in macro_interior.macro_value.values %}
+                                    <tr>
+                                        <td width="50%">{{macro.nombre}}</td>
+                                        <td align="center">{% if macro.condicion == 'deficiente' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'aceptable' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'optimo' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'no_aplica' %}x{% endif %}</td>
+                                    </tr> 
+                                {% endfor %}
+                                </tbody>
+                                
+                            </table>
+                            <strong>Observaciones</strong>
+                            <div class="form-control">{{macro_interior.observacion}}</div>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-eye fa-fw"></i> Inspección Visual - Parte Baja                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover inspeccion">
+                                
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Deficiente</th>
+                                        <th>Aceptable</th>
+                                        <th>Óptimo</th>
+                                        <th>No aplica</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for macro in macro_partebaja.macro_value.values %}
+                                    <tr>
+                                        <td width="50%">{{macro.nombre}}</td>
+                                        <td align="center">{% if macro.condicion == 'deficiente' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'aceptable' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'optimo' %}x{% endif %}</td>
+                                        <td align="center">{% if macro.condicion == 'no_aplica' %}x{% endif %}</td>
+                                    </tr> 
+                                {% endfor %}
+                                </tbody>
+                                
+                            </table>
+                            <strong>Observaciones</strong>
+                            <div class="form-control">{{macro_partebaja.observacion}}</div>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+        <h1 style="page-break-before: always" ></h1>
+
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-camera fa-fw"></i> Fotografías del vehículo                            
+            </div>
+                                    
+            
+            <div class="panel-body">
+            
+                <div class="row">
+                    <div class="col-lg-12">                                                                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a>
+                                                FOTOGRAFÍA SUPERIOR DERECHA
+                                            </a><br>
+                                            <img src="{{fotografia.img_superior_derecha.url}}" class="imagen_vehiculo">
+                                            <br>
+                                        </td>
+                                        <td>
+                                            <a>
+                                                FOTOGRAFÍA SUPERIOR IZQUIERDA
+                                            </a><br>
+                                            <img src="{{fotografia.img_superior_izquierda.url}}" class="imagen_vehiculo">
+                                            <br>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a>
+                                                FOTOGRAFÍA TRASERA
+                                            </a><br>
+                                            <img src="{{fotografia.img_trasera.url}}" class="imagen_vehiculo">
+                                            <br>
+                                        </td>
+                                        <td>
+                                            <a>
+                                                FOTOGRAFÍA DELANTERA
+                                            </a><br>
+                                            <img src="{{fotografia.img_delantera.url}}" class="imagen_vehiculo">
+                                            <br>
+                                        </td>
+                                    </tr>  
+
+                                    <tr>
+                                        <td>
+                                            <a>
+                                                FOTOGRAFÍA INTERIOR
+                                            </a><br>
+                                            <img src="{{fotografia.img_interior.url}}" class="imagen_vehiculo">
+                                            <br>
+                                        </td>
+                                    </tr>                                              
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>                               
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
